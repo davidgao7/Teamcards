@@ -60,3 +60,4 @@ const fetchWrapper = async (url: string, options: RequestInit) => {
     return response;
 }
 
+export { fetchWrapper };
